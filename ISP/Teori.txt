@@ -1,0 +1,17 @@
+﻿SOLID prensipleri, yazılım tasarımındaki iyi uygulamaları ve ilkelere dayanır. 
+"I" SOLID prensiplerinin beşinci ilkesini ifade eder ve 
+Interface Segregation Principle (Arayüz Ayrımı Prensibi) olarak adlandırılır.
+
+Interface Segregation Principle (ISP), bir arayüzün mümkün olduğunca özelleştirilmiş ve bağımsız olması gerektiğini belirtir. 
+Bu prensip, bir sınıfın ihtiyaç duymadığı metotları uygulamaktan kaçınarak, sınıfların fazla bağımlı olmadığı ve 
+gereksiz karmaşıklığı önlediği bir tasarımı teşvik eder.
+
+ISP'ye göre, bir arayüz, kullanıcıları için yeterli ve anlamlı bir işlevselliği sunmalıdır. 
+sınıfın kullanmadığı veya ihtiyaç duymadığı metotları içeren geniş arayüzler, 
+sınıfların gereksiz yükümlülüklerle uğraşmasına neden olabilir. Bu durumda, 
+sınıfların gereksinimlerini yansıtan daha özelleştirilmiş arayüzlerin tanımlanması daha uygun olur.
+
+Bu prensip, aşırı bağımlılığı önler ve sınıfların bağımlılıklarını azaltır. 
+Ayrıca, değişikliklerin sınırlı bir etki alanına sahip olmasını sağlar, 
+çünkü her bir sınıfın kendi spesifik ihtiyaçlarına yönelik bir arayüzle 
+bağlantılı olduğu durumlarda, değişiklikler sadece ilgili sınıfları etkiler.
